@@ -5,6 +5,7 @@ Contribute:
 
 1. Fork this repository.
 2. Clone the Forked repository in your local machine.  git clone git@github.com:<your-github-id>/exercises-and-examples.git
+2.1 Add a upstream to the original repository. git remote add upstream https://github.com/JayKandari/exercises-and-examples.git
 
 If you want to make changes to the repository. 
 3. Create a new feature branch. Eg: if we want to create a feature branch named "update-readme". git checkout -b update-readme.
@@ -22,4 +23,4 @@ git push -u origin <feature-branch-name>
 
 8. Wait for maintainer to merge the pull request. 
 
-9. Pull the latest development branch to see the new changes. 
+9. Pull the latest development branch to see the new changes. git pull upstream master
